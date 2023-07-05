@@ -1,13 +1,10 @@
 import Banner from "Components/Banner/Banner";
-import Cabecalho from "Components/Cabecalho/Cabecalho";
 import Card from "Components/Card/Card";
-import Rodape from "Components/Rodape/Rodape";
 import Titulo from "Components/Titulo/Titulo";
 import styles from "./Inicio.module.css";
 import videos from "json/db.json";
 
 export default function Inicio() {
-  console.log(videos);
   return (
     <>
       <Banner imagem="home" />
